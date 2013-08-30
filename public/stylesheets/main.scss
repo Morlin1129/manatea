@@ -1,0 +1,126 @@
+$base-spacing :  10px ;
+	/* Mobile Home Page */
+body {
+	-webkit-text-size-adjust: 100%;
+	background: #393939;
+}
+
+article#main {
+	position: absolute;
+	top: 44px+  $base-spacing;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: auto;
+}
+
+#main-flip {
+	height: 100%;
+}
+/* flipsnap */
+.flipsnap-viewport {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin: 0 auto$base-spacing;
+}
+
+.cf:before,.cf:after {
+	content: " ";
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	*zoom: 1;
+}
+
+#loginPage {
+	margin: 0 auto;
+	background: #fff;
+}
+
+#splash_logo {
+	width: 100%;
+	max-width: 960px;
+	height: auto;
+}
+
+#login_button {
+	margin: 44px;
+}
+
+h2 {
+	font-size : 16px;
+	width: auto;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 1px solid rgba(0, 0, 0, .1);
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	background-color: #fff;
+	padding : 10px;
+	color: #fff;
+    background-color: #f95e0c;
+/*     background-image: linear-gradient(to bottom, #f95e0c 0%,#e53003 100%); */
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.4), 0 5px 5px rgba(0,0,0,.2);
+
+}
+h3{
+	font-size : 24px;
+	font-weight : normal;
+	line-height : 1.5;
+	border-bottom : 1px solid #ddd;
+	margin-bottom : 20px;
+}
+p {
+	line-height : 1.5;
+	text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.content-block {
+	width: auto;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-radius: 6px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	background-color: #fff;
+	padding : 20px;
+
+}
+.content-block.question-answer {
+	margin-bottom: 0;
+	padding : 10px 10px 0;
+	}
+.question-card {
+	min-height : 30%;
+	max-height : 60%;
+}
+.relative {
+	position : relative;
+}
+.fixed-bottom {
+	width : auto;
+	left : 0;
+	right : 0;
+	position : absolute;
+	bottom : 0;
+}
+
+
+#course-div {
+	height: 100%;
+	background : url(../images/course_bg.jpg) top left no-repeat;
+	background-size:100% auto;
+}
+/* overwrite ratchet */
+.bar-header-secondary {
+	top: 44px;
+}
