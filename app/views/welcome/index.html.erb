@@ -1,3 +1,19 @@
-<h1><img src="/images/manatea.png" /></h1>
-<p>呪言（じゅごん）によって醜い姿に変えられてしまったマナティが、
-本来の姿と仲間を求めて「精霊力の源（マナ）」を集めつつベーリング海峡を目指すという壮大なストーリー。</p>
+<%= stylesheet_link_tag "field1.css" %>
+
+<div class="field" id="map">
+</div>
+<div class="field" id="field1">
+    <a href="#">
+        <img src="images/beach.png" />
+        <p>フィールド1</p>
+    </a>
+</div>
+
+<div id="userInfo">
+    <h3><%= @user %></h3>
+    <dl>
+        <dt>体力</dt>
+        <dd></dd>
+    </dl>
+</div>
+<%= render 'shared/undernav' %>
