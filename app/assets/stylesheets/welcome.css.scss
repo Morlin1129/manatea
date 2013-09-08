@@ -1,7 +1,86 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-#field1{
-    width : 100%;
+$base-spacing :  10px ;
+
+#main {
+    background: rgba(27,35,112,1);
+    height: 100%;
+}
+#map {
+    position:  absolute;
+    z-index: 0;
+    width:  100%;
     height : 100%;
+    background-image : url('../images/sekaichizu.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    -moz-background-size: 100% auto;
+}
+#field1 {
+    position: absolute;
+    z-index: 9;
+    width:  25%;
+    height:  auto;
+    top : 32%;
+    left: 48%;
+    text-align: center;
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+    p{
+        font-weight: 900;
+        color: #036DBB;
+        text-shadow : 
+            2px 0 0 #fff,  
+            0 2px 0 #fff, 
+            -2px 0 0 #fff, 
+            0 -2px 0 #fff,
+            2px 2px 0 #fff,
+            -2px -2px 0 #fff,
+            2px -2px 0 #fff,
+            -2px 2px 0 #fff,
+            3px 3px 3px #036DBB;
+    }
+}
+
+
+#userInfo {
+    color: #036DBB;
+    background: rgba(180,233,251,1);
+    padding: $base-spacing;
+    margin: $base-spacing;
+    box-sizing : border-box; 
+    position: absolute;
+    z-index: 9;
+    top : $base-spacing;
+    left : $base-spacing;
+    right: $base-spacing;
+    border : 4px solid #fff;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -o-border-radius: 1em;
+    -ms-border-radius: 1em;
+    box-shadow : 3px 3px 6px #036DBB;
+    h3 {
+        font-size : 18px;
+        font-weight: 900;
+        text-align: center;
+        /* -webkit-text-stroke: 2px #fff; */
+        text-shadow : 
+            2px 0 0 #fff,  
+            0 2px 0 #fff, 
+            -2px 0 0 #fff, 
+            0 -2px 0 #fff,
+            2px 2px 0 #fff,
+            -2px -2px 0 #fff,
+            2px -2px 0 #fff,
+            -2px 2px 0 #fff,
+            3px 3px 3px #036DBB;
+    }
+    dt {
+        font-weight: 900;
+    }
 }

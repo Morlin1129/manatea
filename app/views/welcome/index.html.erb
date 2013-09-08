@@ -1,7 +1,19 @@
 <%= stylesheet_link_tag "field1.css" %>
 
-<canvas class="field" id="field1">
-   
-</canvas>
+<div class="field" id="map">
+</div>
+<div class="field" id="field1">
+    <a href="#">
+        <img src="images/beach.png" />
+        <p>フィールド1</p>
+    </a>
+</div>
 
+<div id="userInfo">
+    <h3><%= @user %></h3>
+    <dl>
+        <dt>体力</dt>
+        <dd></dd>
+    </dl>
+</div>
 <%= render 'shared/undernav' %>
